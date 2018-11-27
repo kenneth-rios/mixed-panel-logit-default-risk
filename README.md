@@ -1,2 +1,2 @@
-# unconditional_logit_foreign_risk
+# mixed_logit_foreign_risk
 We use an unconditional logit estimator assuming country and year-fixed effects and L1 regularization to predict unconditional probabilities of sovereign external debt defaults. We combine these predicted probabilities with estimated haircut data to generate a risk score which is interpreted as the unconditional rate of foreign investment loss resulting from default. We argue that an unconditional logit is sensible given the structure of our data, the unlikeliness of the random effects assumption holding in our panel, and the presence of L1 regularization to curtail overfitting.
