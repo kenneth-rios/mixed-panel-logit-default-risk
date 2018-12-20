@@ -1,0 +1,59 @@
+                     Mixed Logit Model Regression Results                     
+==============================================================================
+Dep. Variable:             default_RR   No. Observations:                   18
+Model:              Mixed Logit Model   Df Residuals:                      -28
+Method:                           MLE   Df Model:                           46
+Date:                Wed, 19 Dec 2018   Pseudo R-squ.:                   0.090
+Time:                        22:08:20   Pseudo R-bar-squ.:              -0.671
+AIC:                          201.877   Log-Likelihood:                -54.939
+BIC:                          242.834   LL-Null:                       -60.391
+======================================================================================================================================================
+                                                                                         coef    std err          z      P>|z|      [0.025      0.975]
+------------------------------------------------------------------------------------------------------------------------------------------------------
+Year 2001                                                                           2.289e-06      2.804   8.16e-07      1.000      -5.496       5.496
+Year 2007                                                                           2.354e-07     17.639   1.33e-08      1.000     -34.573      34.573
+Year 2008                                                                           2.042e-05     11.919   1.71e-06      1.000     -23.361      23.361
+Year 2009                                                                          -8.875e-07     18.686  -4.75e-08      1.000     -36.624      36.624
+Net Foreign Assets (current LCU)                                                   -3.859e-06   6.54e-12   -5.9e+05      0.000   -3.86e-06   -3.86e-06
+Inflation (annual % change in CPI)                                                 -2.659e-07      0.084  -3.15e-06      1.000      -0.165       0.165
+External Trade Balance (% of GDP)                                                  -5.124e-07      0.184  -2.78e-06      1.000      -0.361       0.361
+Current Account Balance (current USD)                                               4.531e-06   3.11e-10   1.46e+04      0.000    4.53e-06    4.53e-06
+Balance of Payments (current USD)                                                  -4.975e-06   3.37e-10  -1.48e+04      0.000   -4.98e-06   -4.97e-06
+Unemployment (% of labor force)                                                     1.186e-05      0.161   7.37e-05      1.000      -0.316       0.316
+Real GDP Growth (YOY % change)                                                      7.266e-07      0.783   9.28e-07      1.000      -1.534       1.534
+Real GDP per capita growth (annual % change)                                        7.505e-07      0.757   9.91e-07      1.000      -1.484       1.484
+Change in Net Exports (% of GDP)                                                    9.249e-07      0.367   2.52e-06      1.000      -0.720       0.720
+Central Government Balance (% of GDP)                                               7.166e-06      0.276   2.59e-05      1.000      -0.542       0.542
+Interest Payments on Government Debt (% of GDP)                                    -4.417e-06      0.044     -0.000      1.000      -0.086       0.086
+Total Debt owed by Government to Domestic and Foreign Creditors (% of GDP)          1.283e-05      0.043      0.000      1.000      -0.085       0.085
+Bank Lending to Public and Private Sectors (annual % change)                        -1.55e-06      0.072  -2.15e-05      1.000      -0.141       0.141
+Current Account Balance (% of GDP)                                                 -8.206e-07      0.264  -3.11e-06      1.000      -0.517       0.517
+Total International Reserves (% of external debt stock)                              1.01e-06      0.041   2.47e-05      1.000      -0.080       0.080
+Total External Debt Stock (% of exports)                                            2.806e-06      0.015      0.000      1.000      -0.030       0.030
+Total External Debt (% of GDP)                                                      2.535e-06      0.058    4.4e-05      1.000      -0.113       0.113
+Total External Debt Service Paid (% of GDP)                                         7.057e-06      0.722   9.78e-06      1.000      -1.415       1.415
+Total Interest Payments made on External Debt (% of total debt service paid)       -1.084e-07      0.093  -1.17e-06      1.000      -0.181       0.181
+Total Interest Payments made on External Debt (% of GDP)                            1.392e-05      2.277   6.11e-06      1.000      -4.463       4.463
+Real Effective Exchange Rate (weighted by trade)                                    7.131e-06      0.032      0.000      1.000      -0.063       0.063
+Sigma Net Foreign Assets (current LCU)                                              -3.03e-06   3.72e-12  -8.14e+05      0.000   -3.03e-06   -3.03e-06
+Sigma Inflation (annual % change in CPI)                                           -6.995e-07      1.186   -5.9e-07      1.000      -2.324       2.324
+Sigma External Trade Balance (% of GDP)                                            -6.707e-06      1.455  -4.61e-06      1.000      -2.852       2.852
+Sigma Current Account Balance (current USD)                                            0.0001   1.49e-10   9.87e+05      0.000       0.000       0.000
+Sigma Balance of Payments (current USD)                                            -2.183e-05   8.44e-10  -2.59e+04      0.000   -2.18e-05   -2.18e-05
+Sigma Unemployment (% of labor force)                                               3.436e-06      2.436   1.41e-06      1.000      -4.774       4.774
+Sigma Real GDP Growth (YOY % change)                                                3.522e-06      3.848   9.15e-07      1.000      -7.542       7.542
+Sigma Real GDP per capita growth (annual % change)                                 -1.482e-06      5.738  -2.58e-07      1.000     -11.247      11.247
+Sigma Change in Net Exports (% of GDP)                                              8.241e-06      5.973   1.38e-06      1.000     -11.706      11.706
+Sigma Central Government Balance (% of GDP)                                         3.588e-06      6.230   5.76e-07      1.000     -12.211      12.211
+Sigma Interest Payments on Government Debt (% of GDP)                              -9.455e-07      2.017  -4.69e-07      1.000      -3.953       3.953
+Sigma Total Debt owed by Government to Domestic and Foreign Creditors (% of GDP)   -2.845e-06      0.389  -7.32e-06      1.000      -0.762       0.762
+Sigma Bank Lending to Public and Private Sectors (annual % change)                  1.028e-05      0.845   1.22e-05      1.000      -1.656       1.656
+Sigma Current Account Balance (% of GDP)                                            1.408e-05      3.113   4.52e-06      1.000      -6.101       6.101
+Sigma Total International Reserves (% of external debt stock)                       8.047e-06      0.413   1.95e-05      1.000      -0.810       0.810
+Sigma Total External Debt Stock (% of exports)                                      -1.07e-06      0.067  -1.61e-05      1.000      -0.131       0.131
+Sigma Total External Debt (% of GDP)                                               -4.389e-06      0.277  -1.59e-05      1.000      -0.543       0.543
+Sigma Total External Debt Service Paid (% of GDP)                                   3.828e-06      2.661   1.44e-06      1.000      -5.215       5.215
+Sigma Total Interest Payments made on External Debt (% of total debt service paid)  3.461e-08      0.394   8.79e-08      1.000      -0.772       0.772
+Sigma Total Interest Payments made on External Debt (% of GDP)                      3.751e-06      5.601    6.7e-07      1.000     -10.978      10.978
+Sigma Real Effective Exchange Rate (weighted by trade)                              2.036e-06      0.197   1.03e-05      1.000      -0.386       0.386
+======================================================================================================================================================
