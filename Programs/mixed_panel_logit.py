@@ -115,7 +115,7 @@ for i in np.arange(0, 101, 1):
                                             specification= basic_specification,
                                             model_type = "Mixed Logit",  # mixed panel logit model
                                             names = basic_names,
-                                            mixing_id_col = "Country",   # implies coefficients randomized over countries
+                                            mixing_id_col = "Country",   # implies coefficients are randomized over countries
                                             mixing_vars = index_var_names)
         
         
