@@ -93,7 +93,7 @@ lambdas = {}
 # Shuffle training set
 train = train.sample(frac = 1, random_state = 3)
 
-# Generate a list of 10 cutoff indices that equally divide the training data, to be automated later
+# Generate a list of 10 cutoff indices that (roughly) equally divide the training data
 indices = [0, 52, 104, 156, 208, 260, 312, 364, 416, 468, 526]
 
 # Perform 10-fold cross-validation (Takes FOREVER to run... >24 hours)
@@ -123,7 +123,7 @@ for i in np.arange(0, 101, 1):
         model.fit_mle(init_vals = np.zeros(46),
                       num_draws = 1000,  # 1000 draws from independent normal distributions for each parameter,
                       #seed = 2,         # as functions of their means and standard deviations
-                      method = "Nelder-Mead",
+                      method = "Nelder-Mead",  # using Nelder-Mead algorithm
                       maxiter = 10,  # number of Nelder-Mead iterations
                       ridge = i)     # ridge = penalty term 'i' on the sum of squares of estimated parameters
         
