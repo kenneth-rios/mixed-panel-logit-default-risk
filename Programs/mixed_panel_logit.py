@@ -183,7 +183,7 @@ model.fit_mle(init_vals = np.zeros(46),
               maxiter = 1000,  
               ridge = lambda_CV)
 
-# Output regression table (note that the reported standard errors and robust standard error will be INCORRECT)
+# Output regression table
 print(model.get_statsmodels_summary())
 
 # Predict unconditional probabilities on the test set using the fully calibrated model
