@@ -223,6 +223,6 @@ plt.ylabel('True Positive Rate')
 plt.title('ROC of Mixed Panel Logit')
 plt.show()
 
-# Save prediction data 
+# Export prediction data!
 test.to_excel("C:\\Users\\kenri\\Data_Bootcamp\\Research Project\\Python\\Output\\test.xlsx", index = False)
                           
