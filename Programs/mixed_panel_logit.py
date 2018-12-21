@@ -215,6 +215,7 @@ print("AR = " + str(AR))
 # Plot ROC curve
 plt.figure()
 plt.plot(fpr[1], tpr[1])
+plt.plot([0, 1], [0, 1], color = 'black', lw = 1, linestyle = '-')
 plt.xlim([0.0, 1.0])
 plt.ylim([0.0, 1.05])
 plt.xlabel('False Positive Rate')
