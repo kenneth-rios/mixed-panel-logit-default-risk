@@ -3,7 +3,9 @@ I use a mixed panel logit model with randomized coefficients across countries an
 
 For future research, I wish to combine predicted probabilities of default with estimated "haircut" data to generate a risk score which may be interpreted as the unconditional rate of foreign investment loss resulting from default. 
 
-Last Updated: 9/30/19
+Last Updated: 9/30/19 
+
+Currently working on incorporating haircut data
 
 ### Dependencies
 [pylogit](https://github.com/timothyb0912/pylogit)
