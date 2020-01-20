@@ -5,7 +5,7 @@ For future research, I wish to combine predicted probabilities of default with e
 
 Last Updated: 12/25/2019 
 
-Currently working on incorporating haircut data
+Currently independently working on incorporating haircut data
 
 ### Dependencies
 [pylogit](https://github.com/timothyb0912/pylogit)
